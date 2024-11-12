@@ -5,3 +5,6 @@ pydantic-settings
 numexpr
 loguru
 starlette
+alembic
+sqlalchemy
+asyncpg

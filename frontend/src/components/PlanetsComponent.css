@@ -1,0 +1,57 @@
+/* PlanetsComponent.css */
+.planets-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.planets-container h2 {
+    margin-bottom: 10px;
+}
+
+.planets-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.planets-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.planets-container button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* UpdatePlanetForm styling */
+.update-planet-form {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.update-planet-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.update-planet-form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.update-planet-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.update-planet-form button[type="button"] {
+    margin-left: 5px;
+}

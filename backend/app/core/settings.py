@@ -3,6 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    database_url: str
     x_api_token: Optional[str] = '12345'
     port: Optional[int] = 8000
     host: Optional[str] = '127.0.0.1'

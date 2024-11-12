@@ -1,0 +1,3 @@
+from .planet_service import get_planet_service
+from .star_service import get_star_service
+from .satellite_service import get_satellite_service
